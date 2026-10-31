@@ -1,0 +1,22 @@
+# Challenge data, prepared parquet, caches and outputs: large, licensed or personal, never committed.
+data/
+prepared/
+work/
+out/
+output/
+smoke_data/
+*.parquet
+*.tsv
+*.npy
+
+# Python and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS
+.DS_Store

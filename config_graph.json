@@ -1,0 +1,47 @@
+{
+  "seed": 17,
+  "encoder_share": 0.15,
+  "upstream_share": 0.15,
+
+  "encoder_pairs": 1500000,
+  "encoder_epochs": 1,
+  "encoder_batch": 512,
+  "encoder_lr": 5e-05,
+  "encoder_max_len": 64,
+  "encode_batch": 2048,
+  "encoder_pooling": "cls",
+  "encoder_prefix": "",
+
+  "dense_k": 30,
+  "lexical_k": 30,
+  "lexical_cap": 400,
+  "query_chunk": 250000,
+
+  "stageA_queries": 2500000,
+  "stageA_neg_rate": 0.25,
+  "stageA_rounds": 1000,
+  "prune_tau_grid": [0.0002, 0.0005, 0.001, 0.002, 0.005, 0.01, 0.02, 0.03, 0.05],
+  "prune_max_per_query": 5,
+  "prune_max_recall_drop": 0.0005,
+
+  "graph_enabled": true,
+  "sib_max_group": 40,
+  "sib_high_cos": 0.8,
+
+  "ce_enabled": true,
+  "ce_min_pA": 0.002,
+  "ce_max_len": 128,
+  "ce_train_pairs": 1500000,
+  "ce_epochs": 1,
+  "ce_batch": 256,
+  "ce_lr": 3e-05,
+  "ce_infer_batch": 1024,
+
+  "lgb_lr": 0.05,
+  "lgb_leaves": 255,
+  "matcher_rounds": 4000,
+  "shift_grid": [0.0, -0.25, -0.5, -0.75, -1.0],
+  "country_prior": true,
+  "idf_from_train": false,
+  "threads": 0
+}
