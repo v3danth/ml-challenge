@@ -1,0 +1,14 @@
+[project]
+name = "ml-challenge"
+version = "0.1.0"
+description = "Amazon ML Challenge entity-resolution pipeline"
+requires-python = ">=3.10"
+dependencies = [
+    "polars==1.33.1",
+    "rapidfuzz==3.14.1",
+    "anyascii==0.3.3",
+    "numpy==2.0.2",
+    "lightgbm==4.6.0",
+    "torch==2.4.0",
+    "transformers==4.46.0",
+]

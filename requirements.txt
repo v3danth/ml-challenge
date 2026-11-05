@@ -1,9 +1,7 @@
-# Installed offline on Kaggle from the ber-assets-v6 wheelhouse:
 polars==1.33.1
 rapidfuzz==3.14.1
 anyascii==0.3.3
-# Preinstalled on Kaggle GPU images (versions used for local verification):
-lightgbm>=4.0
-torch>=2.1
-transformers>=4.40
-numpy>=1.26
+numpy==2.0.2
+lightgbm==4.6.0
+torch==2.4.0
+transformers==4.46.0
