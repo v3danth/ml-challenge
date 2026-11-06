@@ -20,3 +20,24 @@ venv/
 
 # OS
 .DS_Store
+
+# Model weights, embeddings and checkpoints
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.npz
+*.faiss
+*.nnue
+models/
+encoder/
+emb/
+
+# Raw challenge dataset
+student_resource/dataset/
